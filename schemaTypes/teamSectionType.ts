@@ -1,9 +1,9 @@
 import { defineField, defineType } from 'sanity';
 
-export const teamSection = defineType({
+export const teamSectionType = defineType({
   name: 'teamSection',
   title: 'Team Section',
-  type: 'object',
+  type: 'document',
   fields: [
     defineField({
       name: 'title',

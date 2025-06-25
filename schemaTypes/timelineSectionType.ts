@@ -1,9 +1,9 @@
 import { defineField, defineType } from 'sanity';
 
-export const timelineSection = defineType({
+export const timelineSectionType = defineType({
   name: 'timelineSection',
   title: 'Timeline Section',
-  type: 'object',
+  type: 'document', // ✅ Change from 'object' to 'document'
   fields: [
     defineField({
       name: 'title',
